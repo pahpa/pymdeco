@@ -1,0 +1,10 @@
+TO DO list
+===========
+
+
+* Write tests (!!!)
+* Adapt setup.py for Python 3.x
+* Implement logging
+* Clean up the code (check all these TODO comments in the code)
+* Improve documentation
+* Build pymongo backend

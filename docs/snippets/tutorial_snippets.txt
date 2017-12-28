@@ -1,0 +1,9 @@
+>>> import os
+>>> from pymdeco.services import FileMetadataService
+>>> srv = FileMetadataService()
+>>> for root, dirs, files in os.walk(r'/tests/'):
+...    for afile in files:
+...        meta = srv.get_metadata(os.path.join(root,afile))
+...        print(meta.to_json(indent=2))
+... 
+# long prinout of metadata in nested dictionaries

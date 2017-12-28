@@ -1,0 +1,12 @@
+# use glob syntax.
+syntax: glob
+
+dist
+build
+*.pyc
+*.pyo
+*.exe
+CHANGES
+CHANGES.txt
+CHANGELOG
+CHANGELOG.txt
