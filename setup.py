@@ -172,7 +172,7 @@ SETUP_DIR = os.path.dirname(SETUP_PATH)
 lib_init_py = os.path.join(SETUP_DIR, LIB_NAME, "__init__.py")
 LIB_INIT_VARS = runpy.run_path(lib_init_py)
 
-LONG_DESCRIPTON = read_txt_file('README.txt')
+LONG_DESCRIPTON = read_txt_file('README.md')
 
 
 setup(
